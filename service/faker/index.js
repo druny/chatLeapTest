@@ -13,10 +13,10 @@ const fakeData = {
   User: {
     name: faker.name.firstName,
   },
-  Job: {},
+  Job: {
+    message: faker.random.words
+  },
 };
-
-console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
 
 switch (process.argv[2]) {
   case 'user':

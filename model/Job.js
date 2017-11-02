@@ -13,9 +13,10 @@ const status = [
 ];
 
 let JobSchema = new Schema({
-  pushTime: { type: String },
   type: { type: String, required: true },
   status: { type: String, default: 'waiting' },
+  message: { type: String, default: 'message' },
+  pushTime: { type: Array, default: [9, 0, 0] },
   users: [{ type:  Schema.Types.ObjectId, ref: 'User' }],
   createdAt: { type: Date, default: Date.now(), required: true },
   updatedAt: { type: Date, default: Date.now(), required: true },
