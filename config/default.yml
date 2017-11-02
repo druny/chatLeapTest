@@ -1,5 +1,5 @@
-mysql:
-  host: localhost
-  user: root
-  password: root
-  database: ChatLeapTest
+env: dev
+
+mongo: mongodb://localhost/chatLeapTest
+
+countMock: 100
