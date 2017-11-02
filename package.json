@@ -1,0 +1,26 @@
+{
+  "name": "chatleap",
+  "version": "0.1.0",
+  "description": "Node.js​ ​processor architecture​ ​that​ ​sends​ ​“pushes”​ ​to​ ​a​ ​group​ ​of​ ​users",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/druny/chatLeapTest.git"
+  },
+  "author": "Andrew Danilenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/druny/chatLeapTest/issues"
+  },
+  "homepage": "https://github.com/druny/chatLeapTest#readme",
+  "dependencies": {
+    "config": "^1.27.0",
+    "faker": "^4.1.0",
+    "js-yaml": "^3.10.0",
+    "mysql": "^2.15.0",
+    "redis": "^2.8.0"
+  }
+}
