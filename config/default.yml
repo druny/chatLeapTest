@@ -2,4 +2,4 @@ env: dev
 
 mongo: mongodb://localhost/chatLeapTest
 
-countMock: 100
+countMock: 100000

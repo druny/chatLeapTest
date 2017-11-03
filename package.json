@@ -4,6 +4,7 @@
   "description": "Node.js​ ​processor architecture​ ​that​ ​sends​ ​“pushes”​ ​to​ ​a​ ​group​ ​of​ ​users",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon ./",
     "mock": "npm run mock:user && npm run mock:job",
     "mock:user": "node ./service/faker user",
     "mock:job": "node ./service/faker job"
@@ -23,6 +24,7 @@
     "faker": "^4.1.0",
     "js-yaml": "^3.10.0",
     "kue": "^0.11.6",
-    "mongoose": "^4.12.6"
+    "mongoose": "^4.12.6",
+    "node-schedule": "^1.2.5"
   }
 }
